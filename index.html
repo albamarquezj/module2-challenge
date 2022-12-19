@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alba Maquez || Web Developer</title>
+  <link rel="stylesheet" href="/style/style.css"/>
+  <!-- JavaScript for nav button-->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+
+  </script> 
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="./pics/favicon/favicon-32x32.png">
+</head>
+
+<body>
+
+  <!-- hero banner -->
+  <section class="hero-banner">
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1>Alba Marquez</h1>
+          <p>Web developer portfolio</p>
+        </div>
+      </div>
+  </section>
+
+ <!-- main logo / nav -->
+ <header>
+
+  <div class="topnav" id="myTopnav">
+    <a href="#header" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#work">Works</a>
+    <a href="#contact">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  </header>
+
+
+  <main class="page-wrapper">
+    <!-- about me -->
+    <section class="page-section" id="about1">
+     <div class="about">
+      <h2>About Me</h2>
+        <img src="pics/avatar.jpg" alt="Avatar" class="avatar"> 
+        <p>Hello! My name is Alba. I am a passionate individual who loves arts, design and coding. I enjoy learning new languages and that also includes coding languages. After learning a bit of AWS and Python basics I am doing a bootcamp with edX to learn web design and make my career change. This portfolio is part of the bootcamp as its one of its challenges.</p>
+        <p>I have created this site with a mobile device on mind so it should work and look slightly better on a smaller device if you are visiting from your desktop. Please feel free to check some of the areas on the site and provide feedback as desired. Thank you very much for checking it out. Hope you like it!</p>
+      
+     </div>
+    </div>
+    </section>
+
+    <!-- portfolio container -->
+    <section class="page-section" id="work">
+     <div class="projects">
+      <h2>Work</h2>
+        
+        <!-- flexbox "gallery" -->
+        <div class="container">  
+
+          <div class="mainbox">
+              <div class="box7 boxB"><a href="https://albamarquezj.github.io/prework-study-guide/" target="_blank" title="Prework Study Guide"><img src="/pics/project1.png"></a></div>
+          </div>
+      
+          <div class="secondbox">
+              <div class="box1 boxA"><a href="https://github.com/albamarquezj/module2-challenge" target="_blank" title="Module 2 challenge repository"><img src="/pics/challengerepoimg.png"></a></div>
+      
+              <div class="box2 boxA"><a href="" target="_blank" title="Site under construction"><img src="/pics/foto2.jpg"></a></div>
+      
+              <div class="box3 boxA"><a href="" target="_blank" title="Site under construction"><img src="/pics/foto3.jpg"></a></div>
+      
+              <div class="box4 boxA"><a href="" target="_blank" title="Site under construction"><img src="/pics/foto4.jpg"></a></div>
+          </div>
+      
+      </div>
+
+    </section>
+
+    <!-- contact -->
+    <section class="page-section" id="contact">
+      <div class="extralinks">
+        <address>
+
+          <h2>Contact me</h2>
+          <p>
+          <a href="mailto:albamarquezj@gmail.com" target="_blank" title="Mail to">
+            <img src="pics/email.png">
+          </a>
+
+          <a href="https://github.com/albamarquezj" target="_blank" title="Github">
+            <img src="pics/github.png">
+          </a>
+
+          <a href="https://www.linkedin.com/in/albamarquezj/" target="_blank" title="LinkedIn">
+            <img src="pics/linkedin.png">
+          </a>
+          </p>
+         
+          <p>Attributions:
+            <a href="https://unsplash.com/ja/@domenicoloia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Domenico Loia</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+            <a href="https://unsplash.com/es/@frostroomhead?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Rodion Kutsaiev</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+            <a href="https://unsplash.com/fr/@hjx518756?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">McDobbie Hu</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+            <a href="https://www.flaticon.com/free-icons/github" title="github icons" target="_blank">Github icons created by Pixel perfect - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons" target="_blank"target="_blank">Linkedin icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/mail" title="mail icons" target="_blank">Mail icons created by Freepik - Flaticon</a>
+          </p>
+
+        </address>
+
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
